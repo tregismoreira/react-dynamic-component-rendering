@@ -1,0 +1,43 @@
+[
+  {
+    "type": "heading",
+    "attributes": {
+      "content": "This is a dummy page using the dynamic components rendering."
+    }
+  },
+  {
+    "type": "text",
+    "attributes": {
+      "content": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Sed posuere consectetur est at lobortis."
+    }
+  },
+  {
+    "type": "heading",
+    "attributes": {
+      "level": "h2",
+      "content": "Heading level 2"
+    }
+  },
+  {
+    "type": "heading",
+    "attributes": {
+      "level": "h3",
+      "content": "Heading level 3"
+    }
+  },
+  {
+    "type": "image",
+    "attributes": {
+      "src": "http://lorempixel.com/700/200/business",
+      "width": "700",
+      "height": "300",
+      "alt": "Business dummy image."
+    }
+  },
+  {
+    "type": "text",
+    "attributes": {
+      "content": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Aenean lacinia bibendum nulla sed consectetur. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Sed posuere consectetur est at lobortis."
+    }
+  }
+]

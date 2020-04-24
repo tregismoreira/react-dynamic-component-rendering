@@ -2,19 +2,16 @@ import React from 'react';
 import { Paragraph } from './components';
 import './App.css';
 
+// Import data.
+import paragraphs from './assets/data.json';
+
 function App() {
   return (
     <div className="app">
       <div className="container">
-        <Paragraph
-          type="heading"
-          content="Cras mattis consectetur purus sit amet fermentum."
-        />
-        <Paragraph
-          type="heading"
-          level="h3"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-        />
+        {paragraphs.map((paragraph) => (
+          <Paragraph type={paragraph.type} {...paragraph.attributes} />
+        ))}
       </div>
     </div>
   );
