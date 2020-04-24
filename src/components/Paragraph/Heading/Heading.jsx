@@ -1,16 +1,17 @@
 import React, { createElement } from 'react';
 import PropTypes from 'prop-types';
 
-const Heading = ({ level, text }) => createElement(`${level}`, null, text);
+const Heading = ({ level, content }) =>
+  createElement(`${level}`, null, content);
 
 Heading.propTypes = {
   level: PropTypes.string.isRequired,
-  text: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
 };
 
 Heading.defaultProps = {
   level: 'h1',
-  text: 'Heading',
+  content: 'Heading',
 };
 
 export default Heading;

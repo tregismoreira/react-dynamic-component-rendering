@@ -8,12 +8,12 @@ function App() {
       <div className="container">
         <Paragraph
           type="heading"
-          text="Cras mattis consectetur purus sit amet fermentum."
+          content="Cras mattis consectetur purus sit amet fermentum."
         />
         <Paragraph
           type="heading"
           level="h3"
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
         />
       </div>
     </div>
